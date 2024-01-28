@@ -1,5 +1,5 @@
 <h1> Containers_Docker </h1>
-To deploy containers quickly with root ssh connetion
+To deploy containers quickly with root ssh connection
 <h2> Who am I  </h2>
 https://www.linkedin.com/in/david-bertrand-780424ba
 
