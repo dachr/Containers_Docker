@@ -1,6 +1,8 @@
-<h1> Containers_Docker </h1>
+<title> Containers_Docker </title>
 To deploy containers quickly with root ssh connetion
-
+<h1> Who am I  </h1>
+https://www.linkedin.com/in/david-bertrand-780424ba
+davidbertrand59@gmail.com
 
 <h2> REF Shanika Wickramasinghe:  </h2>
 https://www.cherryservers.com/blog/ssh-into-docker-container
