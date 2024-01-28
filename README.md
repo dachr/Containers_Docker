@@ -35,9 +35,13 @@ docker run -tid -v /sys/fs/cgroup:/sys/fs/cgroup:ro --name ${USERNAME}-vmparc${i
 
 <h2> The script fonctionality  </h2>
 Four options :
+
 –proxy : If you need a proxy to use
+
 –create : by default, it create 2 container but you can choose as much as you want
+
 — drop : To delete all your containers
+
 –infos : To know the Ip and Users
 
 
