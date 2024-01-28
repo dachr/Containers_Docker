@@ -24,6 +24,7 @@ On the file, this is his line :
 docker cp ${HOME}/.ssh/id_rsa.pub ${USERNAME}-vmparc${i}:${HOME}/.ssh/authorized_keys
 The command to create the id_rsa is :
 ssh-keygen
+
 This key is on the host at this location : /root/.ssh/
 
 You have to controle that the name of the image registry create just above is the same name than in the container.sh file
