@@ -18,7 +18,7 @@ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}
 Log / passwd    :    root / root
 
 
-<h2> REF Scritp shell Xavki </h2>
+<h2> REF Script shell Xavki </h2>
 https://xavki.blog/dockeransible-comment-se-creer-un-mini-datacenter-de-test-sans-vm-parc-de-conteneurs/
 
 <h3> Use the container.sh script with controle of your ssh rsa key and the name of the image registry </h3>
