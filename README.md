@@ -27,8 +27,11 @@ https://xavki.blog/dockeransible-comment-se-creer-un-mini-datacenter-de-test-san
 <h3> Use the container.sh script with controle of your ssh rsa key and the name of the image registry </h3>
 You have to controle that the  id_rsa key exist and that his name is yhe same than in the container.sh file
 On the file, this is his line :
+
 docker cp ${HOME}/.ssh/id_rsa.pub ${USERNAME}-vmparc${i}:${HOME}/.ssh/authorized_keys
+
 The command to create the id_rsa is :
+
 ssh-keygen
 
 This key is on the host at this location : /root/.ssh/
