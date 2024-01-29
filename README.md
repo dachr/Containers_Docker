@@ -9,7 +9,8 @@ davidbertrand59@gmail.com
 https://www.cherryservers.com/blog/ssh-into-docker-container
 
 <h3> Create the image registry </h3>
-Use the Dockerfile and launch this command in the file repository
+Use the Dockerfile and launch this command in the file repository :
+
 docker build -t davidimage .
 
 <h3> Test fonctionality of the registry image </h3>
