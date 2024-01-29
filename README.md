@@ -14,7 +14,9 @@ docker build -t davidimage .
 
 <h3> Test fonctionality of the registry image </h3>
 docker run -d -p 2222:22 --name test davidimage
+
 docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'  test
+
 Log / passwd    :    root / root
 
 
