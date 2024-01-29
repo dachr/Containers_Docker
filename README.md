@@ -40,6 +40,7 @@ You have to controle that the name of the image registry create just above is th
 Mine is "davidimage"
 
 On the file, this is his line :
+
 docker run -tid -v /sys/fs/cgroup:/sys/fs/cgroup:ro --name ${USERNAME}-vmparc${i} davidimage
 
 <h2> The script fonctionality  </h2>
